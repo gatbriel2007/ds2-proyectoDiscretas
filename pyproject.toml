@@ -1,0 +1,17 @@
+[project]
+name = "ds2-proyectodiscretas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gatbriel2007", email = "gabrielgiraldootalvora@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ds2-proyectodiscretas = "ds2_proyectodiscretas:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
